@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Congresso Abrasel</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' href='css/main.css'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
+
+    <link href="resources/fontawesome/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Abel&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="js/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/parallaxJs/parallax.min.js"></script>
+</head>
+
+<body>
+    <!-- start nav bar -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light main-nav">
+        <a class="navbar-brand" href="#">
+            <img src="images/logoAbrasel.png" class="img-fluid">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Edição 2019</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="programacao.html">Programação</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="palestrantes-e-chefs.html">Palestrantes e Chefs</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Sobre
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Local e data</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Participantes</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Realizadores</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Imprensa
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Releases e Notas</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Fotos e videos</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Inscreva-se
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Inscrições</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Onde ficar</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Agência de viagens oficial</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Patrocinadores e parceiros</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- end nav bar -->
+
+    <!-- start first parallax -->
+    <div class="nav-ajust">
+    </div>
+    <div class="parallax-container" data-parallax="scroll" data-bleed="10" data-speed="0.2"
+        data-image-src="images/bannerCongresso.jpg" data-natural-width="1400" data-natural-height="700">
+        <div class="first-parallax-item">
+            <h1>
+                13 A 15 DE AGOSTO
+            </h1>
+        </div>
+    </div>
+    <!-- end first parallax -->
+
+
+    <!-- start first content -->
+    <section class="container">
+        <div id="first-content">
+            <div class="row" style="display: flex; justify-content: space-around;">
+                <div class="col-md-10 col-sm-12">
+                    <div class="row">
+                        <div id="first" class="col-md-6 col-sm-12">
+                            <img src="images/logoAbrasel.png" class="img-fluid">
+                        </div>
+                        <div id="sec" class="col-md-6 col-sm-12">
+                            O 31º Congresso Nacional Abrasel já tem data: 13 a 15 de agosto de 2019. O evento é o maior
+                            encontro
+                            de conhecimento e inteligência do setor da alimentação fora do lar, contando com a
+                            participação dos
+                            principais líderes empresariais e da gastronomia do país. Durante dois dias o setor se reúne
+                            para
+                            discutir os desafios e apresentar propostas para o avanço da alimentação fora do lar no
+                            Brasil e, de
+                            maneira mais ampla, melhorar o ambiente empreendedor do País e melhorar a qualidade de vida
+                            dos
+                            cidadãos. Junto da programação técnica, os participantes poderão desfrutar do Lounge de
+                            relacionamento Abrasel, com a presença dos principais parceiros da entidade. E, em paralelo,
+                            é
+                            realizado o Mesa ao Vivo Brasília, pelo 8º ano.
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div id="third" class="col-md-6 col-sm-12">
+                            <h6>Evento Integrado</h6>
+                            <p style="display: flex;
+                                             justify-content: space-around;
+                                             align-items: center;">
+                                <img src="images/mesaAoVivo.jpg" class="img-fluid">
+                            </p>
+                            <p>Pelo 8º ano, o Mesa Ao Vivo Brasília complementa o
+                                Congresso Nacional Abrasel redefinindo o
+                                conceito da gastronomia no centro político do Brasil.</p>
+                        </div>
+                        <div id="fourth" class="col-md-6 col-sm-12">
+                            <h6 style="margin-bottom: 2em;margin-top: 2em;">Parceiros de Mídia: </h6>
+                            <!-- cards -->
+                            <div class="row" id="parceiros">
+                                <div class="col-md-4 col-sm-12">
+                                    <div class="card">
+                                        <img src="images/correioBrasiliense.jpg" class="card-img-top">
+                                        <div class="card-body">
+                                            <p class="card-text">A parceria de sucesso com um dos maiores conglomerados
+                                                de mídia
+                                                do país se repete em 2019: o Correio Braziliense segue dando destaque ao
+                                                evento
+                                                e ao setor.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-12">
+                                    <div class="card">
+                                        <img src="images/prazeresDaMesa.jpg" class="card-img-top">
+                                        <div class="card-body">
+                                            <p class="card-text">A Prazeres da Mesa realiza um feito notável durante o
+                                                evento: a
+                                                produção, ao vivo, de uma edição especial da revista, que traz os
+                                                destaques do
+                                                Congresso Nacional Abrasel e ao Mesa ao Vivo.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-12">
+                                    <div class="card">
+                                        <img src="images/BaresErestaurantes.jpg" class="card-img-top">
+                                        <div class="card-body">
+                                            <p class="card-text">A revista Bares & Restaurantes, como sempre, é a mídia
+                                                oficial
+                                                do Congresso Nacional Abrasel, fazendo a cobertura completa do evento e
+                                                trazendo
+                                                as novidades do setor.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- start video section-->
+    <section id="video-section">
+        <h5>CONFIRA COMO FOI O CONGRESSO NACIONAL ABRASEL E MESA AO VIVO BRASÍLIA 2018</h5>
+        <div class="section-row">
+            <div class="col-md-8 col-sm-12 embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/6-BGgBHcCUE"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- end video section -->
+
+    <!-- end first content -->
+
+
+    <!-- start second parallax -->
+
+    <div class="secondary-parallax-container" data-parallax="scroll" data-bleed="10" data-speed="0.2"
+        data-image-src="images/bannerCongresso2.jpg" data-natural-width="1400" data-natural-height="1000">
+        <div class="second-parallax-item">
+            <div class="second-parallax-sub-item">
+                <h1 style="margin-bottom: 1em;">
+                    ABERTURA
+                </h1>
+                <h4 style="color: white;">voz da Alimentação Fora do Lar no Planalto.</h4>
+            </div>
+        </div>
+    </div>
+    <!-- end second parallax -->
+
+    <!-- start second content-->
+
+    <section id="unique-container" class="container">
+        <div class="col-md-12 col-sm-12" style="text-align: center; margin-bottom: 2em">
+            <h3>A VOZ DA ALIMENTAÇÃO FORA DO LAR NO BRASIL </h3>
+        </div>
+        <div class="row">
+            <div class="col-md-3 col-sm-12">
+                <div class="align-center">
+                    <div id="president">
+                        <div id="president-img-div">
+                            <img src="images/president.jpg">
+                        </div>
+                        <div id="president-text">
+                            <p><em>“Frente a um dos períodos mais desafiadores da história, a Abrasel está com uma visão
+                                    clara
+                                    que o
+                                    empreendedor tem um papel fundamental de protagonismo das ações necessárias para
+                                    impulsionar
+                                    o
+                                    Brasil Novo que tanto queremos”</em>
+                            </p>
+                            <p style="font-size: .8em; text-align: right;">— Paulo Solmucci, Presidente executivo da
+                                Abrasel
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-7 col-sm-12">
+                <div id="side-text">
+                    <p>
+                        Há mais de 30 anos a Abrasel representa e defende o setor de alimentação fora do lar no Brasil,
+                        trabalhando para que empreender no país seja mais fácil e para que os cidadãos tenham mais
+                        qualidade
+                        de vida. Apostando na força deste setor, formado em sua maioria por pequenas empresas, a
+                        entidade
+                        possui hoje representação em todos os estados brasileiros e no Distrito Federal, somando
+                        47seccionais e regionais e contando com 800 líderes e executivos que cuidam de quase 6 mil
+                        associados. Desta capilaridade e robustez ímpares surge a força da Abrasel, materializada
+                        historicamente na cerimônia de abertura de seu evento nacional, com a presença de importantes
+                        parlamentares, lideranças setoriais e empresários de todos os cantos do país
+                    </p>
+                </div>
+                <hr>
+                <div id="cerimonia">
+                    <p>Cerimônia 2017</p>
+                    <img src="images/cerimonia2017.jpg">
+                </div>
+                <div id="public-figures">
+                    <p>Figuras públicas e edições históricas</p>
+                    <div id="figures-list" class="col-md-12 col-sm-12">
+                        <div class="row">
+                            <div class="col-md-3 col-sm-6 col-xs-6">
+                                <img src="images/figure1.jpg">
+                            </div>
+                            <div class="col-md-3 col-sm-6 col-xs-6">
+                                <img src="images/figure2.jpg">
+                            </div>
+                            <div class="col-md-3 col-sm-6 col-xs-6">
+                                <img src="images/figure3.jpg">
+                            </div>
+                            <div class="col-md-3 col-sm-6 col-xs-6">
+                                <img src="images/figure4.jpg">
+                            </div>
+                        </div>
+                        <div class="row" style="margin-top: 1em">
+                            <div class="col-md-3 col-sm-6 col-xs-6">
+                                <img src="images/figure5.jpg">
+                            </div>
+                            <div class="col-md-3 col-sm-6 col-xs-6">
+                                <img src="images/figure6.jpg">
+                            </div>
+                            <div class="col-md-3 col-sm-6 col-xs-6">
+                                <img src="images/figure7.jpg">
+                            </div>
+                            <div class="col-md-3 col-sm-6 col-xs-6">
+                                <img src="images/figure8.jpg">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- end second content -->
+
+    <!-- start third parallax -->
+
+    <div class="secondary-parallax-container" data-parallax="scroll" data-bleed="10" data-speed="0.2"
+        data-image-src="images/bannerCongresso3.jpg" data-natural-width="1400" data-natural-height="800">
+        <div class="small-parallax-item">
+            <div class="small-parallax-sub-item">
+                <h1 style="margin-bottom: 1em;">
+                    FÓRUM & MOSTRA
+                </h1>
+                <h4 style="color: white;">Conhecimento e negócios em ação</h4>
+            </div>
+        </div>
+    </div>
+    <!-- end third parallax -->
+
+    <!-- start third content-->
+
+    <section id="unique-container" class="container" style="margin-bottom: 6em">
+        <div class="row">
+            <div class="col-md-6 col-sm-12">
+                <div id="first-text">
+                    <div id="content-first-text">
+                        <h3 style="margin-bottom: 0.8em;">
+                            UM ENCONTRO INÉDITO DE LIDERANÇAS PARA DESENVOLVER A ALIMENTAÇÃO FORA DO LAR.
+                        </h3>
+
+                        <p style="text-align: justify">
+                            Ficamos combinados: conversa fiada é para mesa de bar, depois do Fórum. Durante a
+                            programação de palestras, queremos você aprendendo, ensinando e compartilhando o
+                            conhecimento incrível preparado a quatro mãos entre a Abrasel e a Prazeres da Mesa. O
+                            menu é intenso e variado durante os dias 14 e 15 de Agosto, com pausas para descanso,
+                            relacionamento, atividades complementares e, claro, negócios numa mostra de produtos,
+                            equipamentos e serviços diferenciados. Confira quem participou em 2018. Em breve a
+                            programação de 2019.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-12">
+                <div class="align-center">
+                    <div id="side-content">
+                        <div class="row">
+                            <div class="col-md-5 col-sm-12">
+                                <div class="item">
+                                    <img src="images/teodorov.jpg" class="img-fluid"
+                                        style="width: 220px; height: 300px">
+                                    <p style="font-weight: 700">Demétrio Teodorov,</p>
+                                    <p><em> e superintendente de inovação na Alelo Brasil</em></p>
+                                </div>
+                            </div>
+                            <div class="col-md-5 col-sm-12">
+                                <div class="item">
+                                    <img src="images/renato.jpg" class="img-fluid" style="width: 220px; height: 300px">
+                                    <p style="font-weight: 700">Renato Meirelles,</p>
+                                    <p><em>Presidente Instituto Locomotiva</em></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-md-10 col-sm-12">
+                <div id="third-list-images">
+                    <div class="row" style="margin-top: 1em">
+                        <div class="col-md-3 col-sm-12 col-xs-12">
+                            <div class="img-list">
+                                <img class="img-fluid" src="images/figure9.jpg">
+                                <p class="title">Ivan Ralston,</p>
+                                <p class="text"><em>Chef e proprietário Restaurante Tuju</em></p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 col-sm-12 col-xs-12">
+                            <div class="img-list">
+                                <img class="img-fluid" src="images/figure10.jpeg">
+                                <p class="title">Rogério Marinho,</p>
+                                <p class="text"><em>Deputado Federal (PSDB-RN) e relator da Reforma
+                                        Trabalhista</em></p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-12 col-xs-12">
+                            <div class="img-list">
+                                <img class="img-fluid" src="images/figure11.jpg">
+                                <p class="title">Carole Crema,</p>
+                                <p class="text"><em>Que Seja Doce (GNT) e Carole Crema SP</em></p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-12 col-xs-12">
+                            <div class="img-list">
+                                <img class="img-fluid" src="images/figure12.jpg">
+                                <p class="title">Edrey Momo,</p>
+                                <p class="text"><em>Proprietário Pizzeria 1900, da Padaria da Esquina, Tasca
+                                        da Esquina e Taberna da
+                                        Esquina</em></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+            </div>
+        </div>
+    </section>
+
+    <!-- end third content -->
+
+    <!-- start fourth parallax -->
+
+    <div class="secondary-parallax-container" data-parallax="scroll" data-bleed="10" data-speed="0.2"
+        data-image-src="images/bannerCongresso4.jpg" data-natural-width="1400" data-natural-height="1000"
+        style="height: 300px; margin-bottom: 5em">
+        <div class="small-parallax-item">
+            <div class="small-parallax-sub-item">
+                <h1 style="margin-bottom: 1em;">
+                    MESA AO VIVO | BRASÍLIA
+                </h1>
+                <h4 style="color: white;">
+                    O reality show da enogastronomia brasileira.
+                </h4>
+            </div>
+        </div>
+    </div>
+    <!-- end fourth parallax -->
+
+    <!-- start fourth content -->
+    <section id="unique-container" class="container" style="margin-bottom: 6em">
+        <div class="align-center">
+            <div class="row">
+                <div class="col-md-10 col-sm-12">
+                    <div id="fourth-text-area">
+                        <h3 style="margin-bottom: 1em">
+                            ANOTE AÍ: QUEM SABE DE GASTRONOMIA, SEJA A ALTA, TRIVIAL OU DE RAIZ, PRECISA FAZER AO
+                            VIVO.
+                        </h3>
+                        <p>
+                            É o que a revista Prazeres da Mesa faz há 15 anos com maestria, tanto que hoje a
+                            publicação
+                            é,
+                            de
+                            longe, a mais relevante da enogastronomia nacional. Pouco tempo depois, as páginas
+                            ganharam
+                            vida
+                            na
+                            Semana Mesa SP para, em seguida, conquistar várias cidades brasileiras, entre elas a
+                            capital
+                            federal
+                            numa grande parceria com a Abrasel. A ideia é incentivar o intercâmbio gastronômico
+                            entre
+                            diferentes
+                            regiões do país; o resultado desta receita você confere numa programação cheia de sabor
+                            e
+                            criatividade.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="margin-top: 3em">
+            <div id="fourth-img-list">
+                <div class="col-md-12 col-sm-12">
+                    <div class="row">
+                        <div class="col-md-2 col-sm-6 col-xs-6">
+                            <img src='images/fourthFigures1.jpg'>
+                        </div>
+                        <div class="col-md-2 col-sm-6 col-xs-6">
+                            <img src="images/fourthFigures2.jpg">
+                        </div>
+                        <div class="col-md-2 col-sm-6 col-xs-6">
+                            <img src="images/fourthFigures3.jpg">
+                        </div>
+                        <div class="col-md-2 col-sm-6 col-xs-6">
+                            <img src="images/fourthFigures4.jpg">
+                        </div>
+                        <div class="col-md-2 col-sm-6 col-xs-6">
+                            <img src="images/fourthFigures5.jpg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+
+    </section>
+
+
+    <!-- end fourth content -->
+
+    <!-- start footer area -->
+    <footer>
+        <section class="container">
+            <div id="first-footer-row" class="row">
+                <div class="col-md-12 col-sm-12">
+                    <div class="row">
+                        <div class="col-md-5 col-sm-12" style="text-align: center">
+                            <h4>ABRASEL</h4>
+                            <p>
+                                Rua Bambuí, 20 cj 102 – Serra, Belo Horizonte/MG - 30210-490
+                            </p>
+                            <p>
+                                Para inscrições fale com Cássia Martins
+                                projetosbr@abrasel.com.br ou (31) 2512.2428
+                            </p>
+                            <p>
+                                Para comercial fale com Roberto Machado, Diretor Comercial
+                                dir.comercialbr@abrasel.com.br ou (31) 994 780 044
+                            </p>
+                        </div>
+                        <div class="col-md-7 col-sm-12">
+                            <div id="footer-img-list">
+                                <div class="col-md-12 col-sm-12">
+                                    <div class="row">
+                                        <div class="col-md-3 col-sm-6 col-xs-6">
+                                            <img class="img-fluid" src="images/footerImg1.jpg">
+                                        </div>
+                                        <div class="col-md-3 col-sm-6 col-xs-6">
+                                            <img class="img-fluid" src="images/footerImg2.jpg">
+                                        </div>
+                                        <div class="col-md-3 col-sm-6 col-xs-6">
+                                            <img class="img-fluid" src="images/footerImg3.jpg">
+                                        </div>
+                                        <div class="col-md-3 col-sm-6 col-xs-6">
+                                            <img class="img-fluid" src="images/footerImg4.jpg">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-10 col-sm-12" style="margin: auto">
+                                <div id="footer-social-list">
+                                    <i class="fab fa-facebook-square fa-3x"></i>
+                                    <i class="fab fa-instagram fa-3x"></i>
+                                    <i class="fab fa-linkedin fa-3x"></i>
+                                    <i class="fab fa-youtube fa-3x"></i>
+                                    <i class="fab fa-twitter fa-3x"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="other-footer-rows">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12">
+                        <h4>Patrocínios confirmados 2019</h4>
+                        <div class="row">
+                            <div class="col-md-3 col-sm-6 col-xs-6">
+                                <img src="images/patrocinio1.png" class="img-fluid">
+                            </div>
+                            <div class="col-md-3 col-sm-6 col-xs-6">
+                                <img src="images/patrocinio2.png" class="img-fluid">
+                            </div>
+                            <div class="col-md-3 col-sm-6 col-xs-6">
+                                <img src="images/patrocinio3.png" class="img-fluid">
+                            </div>
+                            <div class="col-md-3 col-sm-6 col-xs-6">
+                                <img src="images/patrocinio4.png" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="other-footer-rows">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12">
+                        <h4>Parceiros de Mídia 2019</h4>
+                        <div class="row">
+                            <div class="col-md-3 col-sm-6 col-xs-6">
+                                <img src="images/parceria1.png" class="img-fluid">
+                            </div>
+                            <div class="col-md-3 col-sm-6 col-xs-6">
+                                <img src="images/parceria2.png" class="img-fluid">
+                            </div>
+                            <div class="col-md-3 col-sm-6 col-xs-6">
+                                <img src="images/parceria3.png" class="img-fluid">
+                            </div>
+                            <div class="col-md-3 col-sm-6 col-xs-6">
+                                <img src="images/parceria4.png" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="other-footer-rows">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12">
+                        <h4>Apoiadores 2019</h4>
+                        <div class="row">
+                            <div class="col-md-3 col-sm-6 col-xs-6">
+                                <img src="images/apoiadores1.png" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="other-footer-rows">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12">
+                        <h4>Realização 2019</h4>
+                        <div class="row">
+                            <div class="col-md-3 col-sm-6 col-xs-6">
+                                <img src="images/realizacao1.png" class="img-fluid">
+                            </div>
+                            <div class="col-md-3 col-sm-6 col-xs-6">
+                                <img src="images/realizacao2.png" class="img-fluid">
+                            </div>
+                            <div class="col-md-3 col-sm-6 col-xs-6">
+                                <img src="images/realizacao3.png" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+
+    <!-- end footer area -->
+</body>
+
+</html>
